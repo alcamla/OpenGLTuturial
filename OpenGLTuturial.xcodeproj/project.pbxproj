@@ -15,6 +15,11 @@
 		6C53569A1A97CDDF00A2E5D5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C5356991A97CDDF00A2E5D5 /* Images.xcassets */; };
 		6C53569D1A97CDDF00A2E5D5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C53569B1A97CDDF00A2E5D5 /* LaunchScreen.xib */; };
 		6C5356A91A97CDDF00A2E5D5 /* OpenGLTuturialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C5356A81A97CDDF00A2E5D5 /* OpenGLTuturialTests.m */; };
+		6C5356B41A97D3F100A2E5D5 /* OpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C5356B31A97D3F100A2E5D5 /* OpenGLView.m */; };
+		6C5356B61A97D41500A2E5D5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C5356B51A97D41500A2E5D5 /* QuartzCore.framework */; };
+		6C5356B81A97D41B00A2E5D5 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C5356B71A97D41B00A2E5D5 /* OpenGLES.framework */; };
+		6C5356BA1A97D6B500A2E5D5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C5356B91A97D6B500A2E5D5 /* CoreGraphics.framework */; };
+		6C5356BC1A97E3DC00A2E5D5 /* SimpleVertex.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 6C5356BB1A97E3DC00A2E5D5 /* SimpleVertex.glsl */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +47,12 @@
 		6C5356A21A97CDDF00A2E5D5 /* OpenGLTuturialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenGLTuturialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C5356A71A97CDDF00A2E5D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C5356A81A97CDDF00A2E5D5 /* OpenGLTuturialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenGLTuturialTests.m; sourceTree = "<group>"; };
+		6C5356B21A97D3F100A2E5D5 /* OpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLView.h; sourceTree = "<group>"; };
+		6C5356B31A97D3F100A2E5D5 /* OpenGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenGLView.m; sourceTree = "<group>"; };
+		6C5356B51A97D41500A2E5D5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6C5356B71A97D41B00A2E5D5 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		6C5356B91A97D6B500A2E5D5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6C5356BB1A97E3DC00A2E5D5 /* SimpleVertex.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SimpleVertex.glsl; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +60,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C5356BA1A97D6B500A2E5D5 /* CoreGraphics.framework in Frameworks */,
+				6C5356B81A97D41B00A2E5D5 /* OpenGLES.framework in Frameworks */,
+				6C5356B61A97D41500A2E5D5 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +79,9 @@
 		6C53567D1A97CDDF00A2E5D5 = {
 			isa = PBXGroup;
 			children = (
+				6C5356B91A97D6B500A2E5D5 /* CoreGraphics.framework */,
+				6C5356B71A97D41B00A2E5D5 /* OpenGLES.framework */,
+				6C5356B51A97D41500A2E5D5 /* QuartzCore.framework */,
 				6C5356881A97CDDF00A2E5D5 /* OpenGLTuturial */,
 				6C5356A51A97CDDF00A2E5D5 /* OpenGLTuturialTests */,
 				6C5356871A97CDDF00A2E5D5 /* Products */,
@@ -88,6 +105,9 @@
 				6C5356931A97CDDF00A2E5D5 /* ViewController.h */,
 				6C5356941A97CDDF00A2E5D5 /* ViewController.m */,
 				6C5356961A97CDDF00A2E5D5 /* Main.storyboard */,
+				6C5356B21A97D3F100A2E5D5 /* OpenGLView.h */,
+				6C5356B31A97D3F100A2E5D5 /* OpenGLView.m */,
+				6C5356BB1A97E3DC00A2E5D5 /* SimpleVertex.glsl */,
 				6C5356991A97CDDF00A2E5D5 /* Images.xcassets */,
 				6C53569B1A97CDDF00A2E5D5 /* LaunchScreen.xib */,
 				6C5356901A97CDDF00A2E5D5 /* OpenGLTuturial.xcdatamodeld */,
@@ -203,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C5356981A97CDDF00A2E5D5 /* Main.storyboard in Resources */,
+				6C5356BC1A97E3DC00A2E5D5 /* SimpleVertex.glsl in Resources */,
 				6C53569D1A97CDDF00A2E5D5 /* LaunchScreen.xib in Resources */,
 				6C53569A1A97CDDF00A2E5D5 /* Images.xcassets in Resources */,
 			);
@@ -226,6 +247,7 @@
 				6C53568F1A97CDDF00A2E5D5 /* AppDelegate.m in Sources */,
 				6C5356951A97CDDF00A2E5D5 /* ViewController.m in Sources */,
 				6C53568C1A97CDDF00A2E5D5 /* main.m in Sources */,
+				6C5356B41A97D3F100A2E5D5 /* OpenGLView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
